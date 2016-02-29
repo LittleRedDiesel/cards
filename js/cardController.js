@@ -20,10 +20,3 @@ App.controller('cardController', function($scope, $http) {
 
     $scope.orderProp = 'model';
 });
-
-// function cardController($scope,$http) {
-//     $http.get("cards.json")
-//     .success(function(response) {
-//     	$scope.cards = response;
-//     });
-// }
