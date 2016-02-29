@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+</head>
+
+	<body>
+
+		<div ng-app="App" ng-controller="cardController">
+
+			<div class="card-shape" ng-repeat="card in cards">
+
+				<p>{{card.BLACK}}</p>
+
+			</div>
+
+		</div>
+
+		<script src="js/cardController.js"></script>
+
+    <!-- CSV parser and JQuery as pre-requisites -->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery/jquery.csv-0.71.min.js"></script>
+
+	</body>
+</html>

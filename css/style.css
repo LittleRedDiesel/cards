@@ -1,0 +1,17 @@
+.card-shape {
+	border:1px solid #000;
+	height:291px;
+	width:174px;
+	padding:5mm;
+	overflow-wrap:normal;
+	float:left;
+}
+
+.card-shape p {
+	margin-bottom:0;
+	overflow-wrap:break-word;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+}
